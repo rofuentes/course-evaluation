@@ -1,4 +1,4 @@
-cc = gcc-8 -x c -std=c99
+cc = gcc-8 -x c -std=gnu90 -Wpedantic
 
 var_init: var_init.c
 	$(cc) -o var_init var_init.c
